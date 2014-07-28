@@ -1,0 +1,15 @@
+div(ng-include='"components/navbarProveedor/navbarProveedor.html"')
+
+header#banner.hero-unit
+  .container
+    h1 Proveedores
+.container
+  .row
+    .col-lg-12
+      ul.nav.nav-pills.proveedores(ng-repeat='proveedor in proveedores')
+        li(ng-class='{active: proveedor.selected}')
+          a(ng-click='seleccionar(proveedor)') {{proveedor.nombre}}
+          input(type='submit', ng-show='proveedor.selected', ng-click="pedir(proveedor)", value='Seleccionar')
+
+footer.footer
+  .container

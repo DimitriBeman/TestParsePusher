@@ -6,5 +6,5 @@ angular.module('bookingApp')
       .when('/', {
         templateUrl: 'app/main/main.html',
         controller: 'MainCtrl'
-      });
+      })
   });

@@ -1,0 +1,24 @@
+EasyTODO
+
+Applicacion hacer reserva con 2 clicks
+
+Ej.
+
+AppMobile:
+
+Quiero: 
+
+Pedido => [Cortar el pelo - dia y hora - zona]
+
+Verificacion => Empresa (primera) acepta el turno.
+
+Confirmacion =>
+
+
+Tecnologias: 
+
+Mensajes-> 	http://pusher.com/
+DB> 		https://www.parse.com
+
+
+
